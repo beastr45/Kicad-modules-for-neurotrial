@@ -1,4 +1,4 @@
-(module MEM2061-01-188-00-A (layer F.Cu) (tedit 5CA238F8)
+(module MEM2061-01-188-00-A (layer F.Cu) (tedit 5CA23E11)
   (attr smd)
   (fp_text reference MEM2061-01-188-00 (at 0.01 -9.86) (layer F.SilkS)
     (effects (font (size 0.7 0.7) (thickness 0.05)))
@@ -35,4 +35,9 @@
   (pad 3 smd rect (at -0.26 3.225) (size 0.8 2) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0.84 2.825) (size 0.8 2) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at 1.94 3.225) (size 0.8 2) (layers F.Cu F.Paste F.Mask))
+  (model ${KIPRJMOD}/../kicad-modules/3dshape/MEM2061-01-188-00-A001.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
