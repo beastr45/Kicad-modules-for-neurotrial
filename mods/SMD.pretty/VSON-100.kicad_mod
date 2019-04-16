@@ -1,4 +1,4 @@
-(module VSON-100 (layer F.Cu) (tedit 5CABC4DC)
+(module VSON-100 (layer F.Cu) (tedit 5CB60BEF)
   (attr smd)
   (fp_text reference REF** (at 0.03 1.8) (layer F.SilkS)
     (effects (font (size 0.5 0.5) (thickness 0.125)))
@@ -34,4 +34,9 @@
     (solder_mask_margin 0.05) (solder_paste_margin_ratio -0.15))
   (pad 5 smd rect (at 0.075 0.6) (size 0.75 0.3) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.05) (solder_paste_margin_ratio -0.15))
+  (model ${KIPRJMOD}/../kicad-modules/3dshape/RLT0007A_ASM_cp.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
